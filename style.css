@@ -124,10 +124,9 @@ body main article.currency {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
-  -ms-flex-preferred-size: 400px;
-      flex-basis: 400px;
-  min-width: 370px;
-  height: 250px;
+  -ms-flex-preferred-size: 300px;
+      flex-basis: 300px;
+  height: 400px;
   padding: 40px;
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -143,23 +142,23 @@ body main article.currency h2.sub {
 
 body main article.currency div.type {
   margin-top: 10px;
+  font-size: 18px;
 }
 
-body main article.currency div.type p {
-  line-height: 24px;
+body main article.currency div.type p.text {
+  font-weight: 700;
 }
 
 body main article.currency div.type p.title {
   font-weight: 400;
-  font-size: 18px;
 }
 
 body main article.currency button {
   position: absolute;
-  width: 200px;
+  width: 160px;
   height: 50px;
-  right: -10px;
-  bottom: -10px;
+  left: 70px;
+  bottom: -25px;
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border: 2px solid var(--secondary-color);

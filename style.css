@@ -124,9 +124,9 @@ body main article.currency {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
-  -ms-flex-preferred-size: 300px;
-      flex-basis: 300px;
-  height: 400px;
+  -ms-flex-preferred-size: 260px;
+      flex-basis: 260px;
+  height: 340px;
   padding: 40px;
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -157,7 +157,7 @@ body main article.currency button {
   position: absolute;
   width: 160px;
   height: 50px;
-  left: 70px;
+  left: 50px;
   bottom: -25px;
   background-color: var(--primary-color);
   color: var(--secondary-color);

@@ -99,8 +99,8 @@ body {
 			display: flex;
 			flex-direction: column;
 			position: relative;
-			flex-basis: 300px;
-			height: 400px;
+			flex-basis: 260px;
+			height: 340px;
 			padding: 40px;
 			background-color: var(--primary-color);
 			color: var(--secondary-color);
@@ -131,7 +131,7 @@ body {
 				position: absolute;
 				width: 160px;
 				height: 50px;
-				left: 70px;
+				left: 50px;
 				bottom: -25px;
 				background-color: var(--primary-color);
 				color: var(--secondary-color);

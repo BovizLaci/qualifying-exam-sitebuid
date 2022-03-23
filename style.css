@@ -1,0 +1,194 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset finished */
+:root {
+  --primary-color: #fff;
+  --secondary-color: #666;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+body .material-icons {
+  font-size: 36px;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  min-height: 80px;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  border-bottom: 2px solid var(--secondary-color);
+  font-size: 36px;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 60px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  padding-top: 120px;
+  max-width: 1200px;
+  background-color: var(--secondary-color);
+}
+
+body main article.currency {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -ms-flex-preferred-size: 400px;
+      flex-basis: 400px;
+  min-width: 370px;
+  height: 250px;
+  padding: 40px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+body main article.currency h2.sub {
+  height: 100px;
+  border-bottom: 1px solid var(--primary-color);
+  font-size: 80px;
+  line-height: 45px;
+  font-weight: 400;
+}
+
+body main article.currency div.type {
+  margin-top: 10px;
+}
+
+body main article.currency div.type p {
+  line-height: 24px;
+}
+
+body main article.currency div.type p.title {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+body main article.currency button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  right: -10px;
+  bottom: -10px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  padding: 10px;
+  border-radius: 25px;
+}
+
+body main article.currency button p.buttonText {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+body main article.currency button p.buttonIcon {
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+  top: 25px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+body main article.currency button p.buttonIcon .material-icons {
+  font-size: 36px;
+}
+
+body main article.currency button:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+/*# sourceMappingURL=style.css.map */
